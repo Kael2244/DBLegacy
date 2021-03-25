@@ -1,0 +1,18 @@
+"a" = (/turf,/area)
+"b" = (/turf/pisos/agua,/area)
+"c" = (/obj/caja,/turf,/area)
+"d" = (/turf,/area/comienzo)
+"e" = (/mob/Others,/turf,/area)
+
+(1,1,1) = {"
+aaaaabbaaa
+aaaaaabbba
+aacaaaaabb
+aaaaaaaaab
+aaaaaaaaaa
+aaadeaaaaa
+aaaaaaaaaa
+aaaaaaaaaa
+aaaaaaaaaa
+aaaaaaaaaa
+"}
