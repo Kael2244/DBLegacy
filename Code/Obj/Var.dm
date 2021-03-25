@@ -1,0 +1,3 @@
+obj/var
+	objcontador
+	slot
