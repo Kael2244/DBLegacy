@@ -1,4 +1,5 @@
 mob/var
+
 	BP= 1
 	Mana= 1
 	MaxMana=1

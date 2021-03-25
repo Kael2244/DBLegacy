@@ -6,7 +6,6 @@ mob
 		stat("Battle Power:","[src.BP]")
 		stat("Mana:","[src.Mana]")
 		stat("Energy:","[src.Energy]")
-		stat("Chakra:","[src.Chakra]")
 		stat("Health:","[src.HP]/[src.MaxHP]")
 		stat("Strength:","[src.Str]")
 		stat("Speed:","[src.Spd]")
