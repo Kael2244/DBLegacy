@@ -1,16 +1,16 @@
 mob
 	spider
-		icon='araña.dmi'
+		icon='Icons/Mobs/NPCs/araña.dmi'
 		HP=100
-		Str=5
+		Might=5
 		Def=1
 
 	slime
-		icon='slime.dmi'
+		icon='Icons/Mobs/NPCs/slime.dmi'
 		HP=20
-		Str=5
+		Might=5
 		Def=5
 	Baby
-		icon='slime.dmi'
-		HP
+		icon='Icons/Mobs/NPCs/slime.dmi'
+		HP=20
 		BP

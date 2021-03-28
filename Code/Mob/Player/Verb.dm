@@ -19,15 +19,13 @@ mob
 		Attack(mob/M as mob in oview(1))
 			flick("Attack",src)
 			for(var/mob/player in get_step(src,src.dir))
-				var/Damage=max(0,src.Str-M.Def)
+				var/Damage=max(0,src.Might-M.Def)
 				view(M)<<"[src] hit [M] for [Damage] Damage!"
 				M.TakeDamage(Damage,src)
 				M.DeathCheck()
 
-		Flagelarse()
-			HP=(HP-10)
-			view()<<"[src] hit himself"
-
+		Hurt_Yourself()
+			TakeDamage()
 		Train()
 			if(Train=="off")
 				Train="on"
@@ -40,9 +38,9 @@ mob
 		Teleport()
 			set category = "Admin"
 			var
-			x=1
-			y=1
-			z=1
+			x= src.loc
+			y= src.loc
+			z= src.loc
 
 			x = input("X","",x)
 			y = input("Y","",y)
@@ -66,20 +64,41 @@ mob
 			HP=1000
 
 		Learn_Skills()
+			set category = "Admin"
 			var/obj/Ob = input(src,"Skill Tree","Pick what you want to learn") as null|anything in (typesof(/obj/skills/)-/obj/skills)
 			if(!Ob)return
 			new Ob(src)  // creates a new instance of Ob's path in src
 //			winshow(src,"SkillsWindow")
 		Learn_Skills3()
+			set category = "Admin"
 //			var/obj/Ob = input(src,"Skill Tree","Pick what you want to learn") as null|anything in (typesof(/obj/skills/)-/obj/skills)
 //			if(!Ob)return
 //			new Ob(src)  // creates a new instance of Ob's path in src
 			winshow(src,"SkillsWindow")
+		Spawn_Enemie()
+			set category = "Admin"
+			var/obj/Ob = input(src,"List","Pick what you want to Kill") as null|anything in (typesof(/mob/)-/mob)
+			if(!Ob)return
+			new Ob(loc)
+		Spawn_Item()
+			set category = "Admin"
+			var/obj/Ob = input(src,"List","Pick what you want to Kill") as null|anything in (typesof(/obj/)-/obj)
+			if(!Ob)return
+			new Ob(src)
+		drink()
+		   //this effect is very confusing!
+			var/icon/I = new(usr.icon)
+			I.Turn(90)
+			usr.icon = I
+			usr << "You feel a little tipsy!"
 
+			sleep(200)
 
+			I.Turn(-90)  //turn it back
+			usr.icon = I //should have just saved original value
 
-
-
-
-
-
+		Make_New_Skill()
+			var/obj/O=new(src)
+			var/obj/verb/I =new
+			O.name= input("Name your Skill","Skill Forge",text)
+			O.Style=input("Style","Skill Forge") in list ("Meele","Ki","Buff")

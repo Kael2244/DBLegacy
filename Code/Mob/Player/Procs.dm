@@ -1,6 +1,7 @@
 mob/proc
 
 	TakeDamage(var/Damage,var/mob/Attacker)
+		LimbDamage()
 		src.HP-=Damage
 		src.DeathCheck(Attacker)
 
@@ -45,3 +46,4 @@ mob/proc
 			winset(src, "equipment", "current-cell=2,[items]")
 			src << output(equipment[slot], "equipment")
 		winset(src, "equipment", "cells=2x[items]")	// cut off any remaining rows
+
