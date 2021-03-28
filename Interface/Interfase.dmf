@@ -103,6 +103,442 @@ menu "menu"
 		saved-params = "is-checked"
 
 
+window "HealthWindow"
+	elem "HealthWindow"
+		type = MAIN
+		pos = 281,0
+		size = 449x312
+		anchor1 = none
+		anchor2 = none
+		background-color = #b2b2b2
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		statusbar = false
+		can-resize = false
+		outer-size = 465x351
+		inner-size = 449x312
+	elem "LimbDamage"
+		type = GRID
+		pos = 192,48
+		size = 256x256
+		anchor1 = none
+		anchor2 = none
+		font-size = 11
+		font-style = "bold"
+		text-color = #f8f8f8
+		background-color = #5f5f5f
+		saved-params = ""
+		cells = 2x10
+		current-cell = 1,1
+		line-color = #5f5f5f
+		highlight-color = #000000
+	elem "label26"
+		type = LABEL
+		pos = 112,188
+		size = 32x20
+		anchor1 = none
+		anchor2 = none
+		text-color = #f8f8f8
+		background-color = #b2b2b2
+		saved-params = ""
+		text = "100%"
+	elem "label25"
+		type = LABEL
+		pos = 112,172
+		size = 32x20
+		anchor1 = none
+		anchor2 = none
+		text-color = #f8f8f8
+		background-color = #b2b2b2
+		saved-params = ""
+		text = "100%"
+	elem "label24"
+		type = LABEL
+		pos = 112,156
+		size = 32x20
+		anchor1 = none
+		anchor2 = none
+		text-color = #f8f8f8
+		background-color = #b2b2b2
+		saved-params = ""
+		text = "100%"
+	elem "label23"
+		type = LABEL
+		pos = 112,140
+		size = 32x20
+		anchor1 = none
+		anchor2 = none
+		text-color = #f8f8f8
+		background-color = #b2b2b2
+		saved-params = ""
+		text = "100%"
+	elem "label22"
+		type = LABEL
+		pos = 112,124
+		size = 32x20
+		anchor1 = none
+		anchor2 = none
+		text-color = #f8f8f8
+		background-color = #b2b2b2
+		saved-params = ""
+		text = "100%"
+	elem "label21"
+		type = LABEL
+		pos = 112,108
+		size = 32x20
+		anchor1 = none
+		anchor2 = none
+		text-color = #f8f8f8
+		background-color = #b2b2b2
+		saved-params = ""
+		text = "100%"
+	elem "label20"
+		type = LABEL
+		pos = 112,92
+		size = 32x20
+		anchor1 = none
+		anchor2 = none
+		text-color = #f8f8f8
+		background-color = #b2b2b2
+		saved-params = ""
+		text = "100%"
+	elem "label19"
+		type = LABEL
+		pos = 112,76
+		size = 32x20
+		anchor1 = none
+		anchor2 = none
+		text-color = #f8f8f8
+		background-color = #b2b2b2
+		saved-params = ""
+		text = "100%"
+	elem "Pain"
+		type = LABEL
+		pos = 112,60
+		size = 32x20
+		anchor1 = none
+		anchor2 = none
+		text-color = #f8f8f8
+		background-color = #b2b2b2
+		saved-params = ""
+		text = "0"
+	elem "label17"
+		type = LABEL
+		pos = 0,8
+		size = 448x28
+		anchor1 = none
+		anchor2 = none
+		font-size = 22
+		font-style = "bold"
+		text-color = #ffff00
+		background-color = #080808
+		saved-params = ""
+		text = "Health Window"
+	elem "bar2"
+		type = BAR
+		pos = 0,40
+		size = 448x10
+		anchor1 = none
+		anchor2 = none
+		background-color = none
+		saved-params = ""
+		is-slider = false
+		dir = east
+	elem "label16"
+		type = LABEL
+		pos = 0,60
+		size = 112x152
+		anchor1 = none
+		anchor2 = none
+		font-size = 11
+		font-style = "bold"
+		text-color = #ffffff
+		background-color = #b2b2b2
+		saved-params = ""
+		text = "Pain\nConsciousness\nMoving\nManipulation\nSight\nHearing\nBreathing\nBlood Pumping\nMetabolism"
+		align = top-left
+
+window "SkillForge"
+	elem "SkillForge"
+		type = MAIN
+		pos = 281,0
+		size = 490x272
+		anchor1 = none
+		anchor2 = none
+		background-color = #b2b2b2
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		statusbar = false
+		can-minimize = false
+		can-resize = false
+	elem "label15"
+		type = LABEL
+		pos = 184,240
+		size = 40x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #f8f8f8
+		background-color = #080808
+		saved-params = ""
+		text = "1.2"
+	elem "label14"
+		type = LABEL
+		pos = 184,212
+		size = 40x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #f8f8f8
+		background-color = #080808
+		saved-params = ""
+		text = "1.1"
+	elem "label13"
+		type = LABEL
+		pos = 184,184
+		size = 40x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #f8f8f8
+		background-color = #080808
+		saved-params = ""
+		text = "1.1"
+	elem "label12"
+		type = LABEL
+		pos = 288,40
+		size = 192x20
+		anchor1 = none
+		anchor2 = none
+		font-size = 11
+		font-style = "bold"
+		text-color = #f8f8f8
+		background-color = #000000
+		saved-params = ""
+		text = "Final stats"
+	elem "button17"
+		type = BUTTON
+		pos = 8,128
+		size = 216x32
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #f8f8f8
+		background-color = #000000
+		saved-params = "is-checked"
+		text = "Description"
+		command = ""
+	elem "button16"
+		type = BUTTON
+		pos = 136,80
+		size = 88x32
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #f8f8f8
+		background-color = #000000
+		saved-params = "is-checked"
+		text = "Target"
+		command = ""
+	elem "label11"
+		type = LABEL
+		pos = 40,184
+		size = 104x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #f8f8f8
+		background-color = #080808
+		saved-params = ""
+		text = "Damage multiplier"
+	elem "button15"
+		type = BUTTON
+		pos = 152,184
+		size = 20x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #f8f8f8
+		background-color = #000000
+		saved-params = "is-checked"
+		text = "+"
+		command = ""
+	elem "button9"
+		type = BUTTON
+		pos = 8,184
+		size = 24x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #f8f8f8
+		background-color = #000000
+		saved-params = "is-checked"
+		text = "-"
+		command = ""
+	elem "label10"
+		type = LABEL
+		pos = 40,240
+		size = 104x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #f8f8f8
+		background-color = #080808
+		saved-params = ""
+		text = "Critical Multiplier"
+	elem "button14"
+		type = BUTTON
+		pos = 152,240
+		size = 20x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #f8f8f8
+		background-color = #000000
+		saved-params = "is-checked"
+		text = "+"
+		command = ""
+	elem "button13"
+		type = BUTTON
+		pos = 8,240
+		size = 24x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #f8f8f8
+		background-color = #000000
+		saved-params = "is-checked"
+		text = "-"
+		command = ""
+	elem "label9"
+		type = LABEL
+		pos = 40,212
+		size = 104x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #f8f8f8
+		background-color = #080808
+		saved-params = ""
+		text = "Critical Chance"
+	elem "button12"
+		type = BUTTON
+		pos = 152,212
+		size = 20x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #f8f8f8
+		background-color = #000000
+		saved-params = "is-checked"
+		text = "+"
+		command = ""
+	elem "button11"
+		type = BUTTON
+		pos = 8,212
+		size = 24x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #f8f8f8
+		background-color = #000000
+		saved-params = "is-checked"
+		text = "-"
+		command = ""
+	elem "label8"
+		type = LABEL
+		pos = 40,184
+		size = 104x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #f8f8f8
+		background-color = #080808
+		saved-params = ""
+		text = "Damage multiplier"
+	elem "button10"
+		type = BUTTON
+		pos = 152,184
+		size = 20x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #f8f8f8
+		background-color = #000000
+		saved-params = "is-checked"
+		text = "+"
+		command = ""
+	elem "button8"
+		type = BUTTON
+		pos = 8,184
+		size = 24x20
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #f8f8f8
+		background-color = #000000
+		saved-params = "is-checked"
+		text = "-"
+		command = ""
+	elem "button7"
+		type = BUTTON
+		pos = 136,40
+		size = 88x32
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #f8f8f8
+		background-color = #000000
+		saved-params = "is-checked"
+		text = "Select the Style"
+		command = ""
+	elem "button6"
+		type = BUTTON
+		pos = 8,80
+		size = 88x32
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #f8f8f8
+		background-color = #000000
+		saved-params = "is-checked"
+		text = "Damage Type"
+		command = ""
+	elem "button5"
+		type = BUTTON
+		pos = 8,40
+		size = 88x32
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #f8f8f8
+		background-color = #000000
+		saved-params = "is-checked"
+		text = "Name the skill"
+		command = ""
+	elem "label7"
+		type = LABEL
+		pos = 8,8
+		size = 472x20
+		anchor1 = none
+		anchor2 = none
+		font-size = 11
+		font-style = "bold"
+		text-color = #f8f8f8
+		background-color = #000000
+		saved-params = ""
+		text = "Skill forge"
+	elem "label6"
+		type = LABEL
+		pos = 288,64
+		size = 192x192
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		saved-params = ""
+		text = "Name: Upper Punch\nStyle:  Melee\nDamage type:  Blunt\nDamage multiplier: 1.1x MPa\nCritical chance:  10%\nCritical multiplier: 120%\nTarget  : Jaw\nCool Down:  120 seg\nSpecial effect: non\n\nDescription: -"
+		align = top-left
+
 window "SkillsWindow"
 	elem "SkillsWindow"
 		type = MAIN
@@ -117,8 +553,580 @@ window "SkillsWindow"
 		statusbar = false
 		can-minimize = false
 		can-resize = false
-		outer-size = 544x519
-		inner-size = 528x480
+	elem "label5"
+		type = LABEL
+		pos = 392,136
+		size = 128x32
+		anchor1 = none
+		anchor2 = none
+		text-color = #dddddd
+		background-color = #000000
+		saved-params = ""
+		text = "Transformation"
+	elem "label4"
+		type = LABEL
+		pos = 392,96
+		size = 128x32
+		anchor1 = none
+		anchor2 = none
+		text-color = #dddddd
+		background-color = #000000
+		saved-params = ""
+		text = "Kaioken"
+	elem "label3"
+		type = LABEL
+		pos = 208,96
+		size = 128x32
+		anchor1 = none
+		anchor2 = none
+		text-color = #dddddd
+		background-color = #000000
+		saved-params = ""
+		text = "Cut"
+	elem "label2"
+		type = LABEL
+		pos = 32,136
+		size = 128x32
+		anchor1 = none
+		anchor2 = none
+		text-color = #dddddd
+		background-color = #000000
+		saved-params = ""
+		text = "Blast"
+	elem "label1"
+		type = LABEL
+		pos = 32,96
+		size = 128x32
+		anchor1 = none
+		anchor2 = none
+		text-color = #dddddd
+		background-color = #000000
+		saved-params = ""
+		text = "Kamehameha"
+	elem "button4"
+		type = BUTTON
+		pos = 360,136
+		size = 32x32
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ff0000
+		background-color = #000000
+		saved-params = "is-checked"
+		text = ""
+		image = 'Interface\\SkillIcons\\211.png'
+		command = ""
+	elem "button3"
+		type = BUTTON
+		pos = 360,96
+		size = 32x32
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ff0000
+		background-color = #000000
+		saved-params = "is-checked"
+		text = ""
+		image = 'Interface\\SkillIcons\\103.png'
+		command = ""
+	elem "button2"
+		type = BUTTON
+		pos = 352,56
+		size = 176x32
+		anchor1 = none
+		anchor2 = none
+		font-size = 11
+		font-style = "bold"
+		text-color = #ff0066
+		background-color = #000000
+		saved-params = "is-checked"
+		text = "Buffs"
+		command = ".VisibleStance \"True\""
+		stretch = true
+	elem "button1"
+		type = BUTTON
+		pos = 0,136
+		size = 32x32
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ff0000
+		background-color = #000000
+		saved-params = "is-checked"
+		text = ""
+		image = 'Interface\\SkillIcons\\16.png'
+		command = ""
+	elem "Stance"
+		type = BUTTON
+		pos = 0,96
+		size = 32x32
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ff0000
+		background-color = #000000
+		saved-params = "is-checked"
+		text = ""
+		image = 'Interface\\SkillIcons\\162.png'
+		command = ""
+	elem "Tier0"
+		type = BUTTON
+		pos = 176,96
+		size = 32x32
+		anchor1 = none
+		anchor2 = none
+		font-style = "bold"
+		text-color = #ff0000
+		background-color = #000000
+		saved-params = "is-checked"
+		text = ""
+		image = 'Interface\\SkillIcons\\271.png'
+		command = ""
+	elem "bar1"
+		type = BAR
+		pos = 0,48
+		size = 528x8
+		anchor1 = none
+		anchor2 = none
+		saved-params = ""
+		is-slider = false
+		dir = east
+	elem "button38"
+		type = BUTTON
+		pos = 0,0
+		size = 528x48
+		anchor1 = none
+		anchor2 = none
+		font-size = 21
+		text-color = #ffff66
+		background-color = #000000
+		saved-params = "is-checked"
+		text = "Skill tree"
+		command = ".Skills \"SSJ\""
+		stretch = true
+	elem "button24"
+		type = BUTTON
+		pos = 176,56
+		size = 176x32
+		anchor1 = none
+		anchor2 = none
+		font-size = 11
+		font-style = "bold"
+		text-color = #ff0066
+		background-color = #000000
+		saved-params = "is-checked"
+		text = "Weapon"
+		command = ".VisibleStance \"True\""
+		stretch = true
+	elem "button23"
+		type = BUTTON
+		pos = 0,56
+		size = 176x32
+		anchor1 = none
+		anchor2 = none
+		font-size = 11
+		font-style = "bold"
+		text-color = #ff6699
+		background-color = #000000
+		saved-params = "is-checked"
+		text = "Ki Moves"
+		command = ".VisibleTier0 \"True\""
+		stretch = true
+
+window "mainwindow"
+	elem "mainwindow"
+		type = MAIN
+		pos = 281,0
+		size = 640x440
+		anchor1 = none
+		anchor2 = none
+		background-color = #000000
+		is-default = true
+		saved-params = "pos;size;is-maximized"
+		statusbar = false
+		macro = "macro"
+		menu = "menu"
+	elem "mainvsplit"
+		type = CHILD
+		pos = 0,0
+		size = 640x419
+		anchor1 = 0,0
+		anchor2 = 100,100
+		saved-params = "splitter"
+		right = "rpane"
+		is-vert = true
+	elem "input"
+		type = INPUT
+		pos = 0,420
+		size = 140x20
+		anchor1 = 0,100
+		anchor2 = 100,100
+		font-family = "@Arial Unicode MS"
+		text-color = #ffffff
+		background-color = #000000
+		is-default = true
+		border = sunken
+		saved-params = ""
+	elem "Health"
+		type = LABEL
+		pos = 140,420
+		size = 100x20
+		anchor1 = 100,100
+		anchor2 = none
+		font-family = "@Arial Unicode MS"
+		text-color = #ffffff
+		background-color = #000000
+		is-visible = false
+		border = sunken
+		saved-params = ""
+		text = "Health"
+		align = left
+	elem "Energy"
+		type = LABEL
+		pos = 240,420
+		size = 100x20
+		anchor1 = 100,100
+		anchor2 = none
+		font-family = "@Arial Unicode MS"
+		text-color = #ffffff
+		background-color = #000000
+		is-visible = false
+		border = sunken
+		saved-params = ""
+		text = "Energy"
+		align = left
+	elem "Power"
+		type = LABEL
+		pos = 340,420
+		size = 150x20
+		anchor1 = 100,100
+		anchor2 = none
+		font-family = "@Arial Unicode MS"
+		text-color = #ffffff
+		background-color = #000000
+		is-visible = false
+		border = sunken
+		saved-params = ""
+		text = "Power"
+		align = left
+	elem "Gravity"
+		type = LABEL
+		pos = 490,420
+		size = 100x20
+		anchor1 = 100,100
+		anchor2 = none
+		font-family = "@Arial Unicode MS"
+		text-color = #ffffff
+		background-color = #000000
+		is-visible = false
+		border = sunken
+		saved-params = ""
+		text = "Gravity"
+		align = left
+
+window "mapwindow"
+	elem "mapwindow"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		background-color = #000000
+		saved-params = "pos;size;is-maximized"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "map"
+		type = MAP
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		text-color = #000000
+		is-default = true
+		saved-params = "icon-size"
+		on-show = ".winset\"mainwindow.mainvsplit.left=mapwindow\""
+		on-hide = ".winset\"mainwindow.mainvsplit.left=\""
+
+window "outputwindow"
+	elem "outputwindow"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		background-color = #000000
+		saved-params = "pos;size;is-maximized"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "output"
+		type = OUTPUT
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		text-color = #c0c0c0
+		background-color = #000000
+		is-default = true
+		saved-params = "max-lines"
+		link-color = #80ffff
+		visited-color = #008080
+		max-lines = 300
+
+window "rewardwindow"
+	elem "rewardwindow"
+		type = MAIN
+		pos = 281,0
+		size = 1085x600
+		anchor1 = none
+		anchor2 = none
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		title = "Player Reward System"
+		statusbar = false
+	elem "browser_reward"
+		type = BROWSER
+		pos = 0,0
+		size = 696x600
+		anchor1 = none
+		anchor2 = none
+		background-color = #ffffff
+		saved-params = ""
+
+window "rpane"
+	elem "rpane"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		background-color = #000000
+		saved-params = "pos;size;is-maximized"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "Magic"
+		type = BUTTON
+		pos = 320,0
+		size = 73x20
+		anchor1 = none
+		anchor2 = none
+		text-color = #c0c0c0
+		background-color = #000000
+		saved-params = "is-checked"
+		text = "Magic"
+		command = ".winset \"rpanewindow.left=windowMagic\""
+		group = "rpanemode"
+		button-type = pushbox
+	elem "rpanewindow"
+		type = CHILD
+		pos = 0,0
+		size = 640x480
+		anchor1 = 0,0
+		anchor2 = 100,100
+		saved-params = "splitter"
+		right = "outputwindow"
+		is-vert = false
+	elem "techbutton"
+		type = BUTTON
+		pos = 245,1
+		size = 73x20
+		anchor1 = none
+		anchor2 = none
+		text-color = #c0c0c0
+		background-color = #000000
+		saved-params = "is-checked"
+		text = "Technology"
+		command = ".winset \"rpanewindow.left=windowTech\""
+		group = "rpanemode"
+		button-type = pushbox
+	elem "textb"
+		type = BUTTON
+		pos = 1,1
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		text-color = #c0c0c0
+		background-color = #000000
+		is-visible = false
+		saved-params = "is-checked"
+		text = "Text"
+		command = ".winset \"rpanewindow.left=;\""
+		is-checked = true
+		group = "rpanemode"
+		button-type = pushbox
+	elem "Button_Skills"
+		type = BUTTON
+		pos = 184,1
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		text-color = #c0c0c0
+		background-color = #000000
+		saved-params = "is-checked"
+		text = "Learn Skills"
+		command = "Learn-Skills3 "
+		group = "rpanemode"
+		button-type = pushbox
+	elem "browseb"
+		type = BUTTON
+		pos = 62,1
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		text-color = #c0c0c0
+		background-color = #000000
+		is-visible = false
+		saved-params = "is-checked"
+		text = "Browser"
+		command = ".winset \"rpanewindow.left=browserwindow\""
+		group = "rpanemode"
+		button-type = pushbox
+	elem "infob"
+		type = BUTTON
+		pos = 123,1
+		size = 60x20
+		anchor1 = none
+		anchor2 = none
+		text-color = #c0c0c0
+		background-color = #000000
+		is-visible = false
+		saved-params = "is-checked"
+		text = "Info"
+		command = ".winset \"rpanewindow.left=infowindow\""
+		group = "rpanemode"
+		button-type = pushbox
+
+window "browserwindow"
+	elem "browserwindow"
+		type = MAIN
+		pos = 281,0
+		size = 640x480
+		anchor1 = none
+		anchor2 = none
+		background-color = #000000
+		saved-params = "pos;size;is-maximized"
+		title = "Browser"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+	elem "browser"
+		type = BROWSER
+		pos = 0,0
+		size = 640x501
+		anchor1 = 0,0
+		anchor2 = 100,100
+		background-color = #ffffff
+		is-default = true
+		saved-params = ""
+		on-show = ".winset\"rpane.infob.is-visible=true?rpane.infob.pos=130,0;rpane.textb.is-visible=true;rpane.browseb.is-visible=true;rpane.browseb.is-checked=true;rpane.rpanewindow.pos=0,30;rpane.rpanewindow.size=0x0;rpane.rpanewindow.left=browserwindow\""
+		on-hide = ".winset\"rpane.browseb.is-visible=false;rpane.infob.is-visible=true?rpane.infob.is-checked=true rpane.infob.pos=65,0 rpane.rpanewindow.left=infowindow:rpane.rpanewindow.left=textwindow rpane.textb.is-visible=false rpane.rpanewindow.pos=0,0 rpane.rpanewindow.size=0x0\""
+
+window "infowindow"
+	elem "infowindow"
+		type = MAIN
+		pos = 281,0
+		size = 640x462
+		anchor1 = none
+		anchor2 = none
+		background-color = #000000
+		saved-params = "pos;size;is-maximized"
+		title = "Info"
+		titlebar = false
+		statusbar = false
+		can-close = false
+		can-minimize = false
+		can-resize = false
+		is-pane = true
+		can-scroll = vertical
+	elem "info"
+		type = INFO
+		pos = 0,0
+		size = 640x462
+		anchor1 = 0,0
+		anchor2 = 100,100
+		text-color = #c0c0c0
+		background-color = #000000
+		is-default = true
+		saved-params = ""
+		highlight-color = #00ffff
+		tab-text-color = #c0c0c0
+		tab-background-color = #000000
+		tab-font-family = "serif"
+		allow-html = false
+		on-show = ".winset\"rpane.infob.is-visible=true;rpane.browseb.is-visible=true?rpane.infob.pos=130,0:rpane.infob.pos=65,0 rpane.textb.is-visible=true rpane.infob.is-checked=true rpane.rpanewindow.pos=0,30 rpane.rpanewindow.size=0x0 rpane.rpanewindow.left=infowindow\""
+		on-hide = ".winset\"rpane.infob.is-visible=false;rpane.browseb.is-visible=true?rpane.browseb.is-checked=true rpane.rpanewindow.left=browserwindow:rpane.textb.is-visible=false rpane.rpanewindow.pos=0,0 rpane.rpanewindow.size=0x0 rpane.rpanewindow.left=\""
+
+window "win_playerDsc"
+	elem "win_playerDsc"
+		type = MAIN
+		pos = 281,0
+		size = 540x679
+		anchor1 = none
+		anchor2 = none
+		background-color = #000000
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		statusbar = false
+	elem "brow_playerDsc"
+		type = BROWSER
+		pos = 16,16
+		size = 504x646
+		anchor1 = 0,0
+		anchor2 = 100,100
+		background-color = #000000
+		border = sunken
+		saved-params = ""
+
+window "win_playerEdit"
+	elem "win_playerEdit"
+		type = MAIN
+		pos = 281,0
+		size = 499x567
+		anchor1 = none
+		anchor2 = none
+		background-color = #000000
+		is-visible = false
+		saved-params = "pos;size;is-minimized;is-maximized"
+		statusbar = false
+	elem "inp_playerEdit"
+		type = INPUT
+		pos = 16,24
+		size = 464x527
+		anchor1 = 0,0
+		anchor2 = 100,100
+		border = sunken
+		saved-params = ""
+		multi-line = true
+		no-command = true
+
+window "window12"
+	elem "window12"
+		type = MAIN
+		pos = 281,0
+		size = 528x480
+		anchor1 = none
+		anchor2 = none
+		background-color = #808080
+		is-visible = false
+		is-transparent = true
+		saved-params = "pos;size;is-minimized;is-maximized"
+		statusbar = false
+		can-minimize = false
+		can-resize = false
 	elem "Stance"
 		type = BUTTON
 		pos = 0,232
@@ -151,7 +1159,6 @@ window "SkillsWindow"
 		size = 528x8
 		anchor1 = none
 		anchor2 = none
-		background-color = none
 		saved-params = ""
 		is-slider = false
 		dir = east
@@ -378,508 +1385,4 @@ window "SkillsWindow"
 		text = "Tier 0"
 		command = ".VisibleTier0 \"True\""
 		stretch = true
-
-window "backup"
-	elem "backup"
-		type = MAIN
-		pos = 281,0
-		size = 353x221
-		anchor1 = none
-		anchor2 = none
-		background-color = #ffffff
-		is-visible = false
-		saved-params = "pos;size;is-minimized;is-maximized"
-		titlebar = false
-		statusbar = false
-		can-close = false
-		can-minimize = false
-		can-resize = false
-		transparent-color = #ffffff
-		menu = "Spellbook"
-	elem "Lightning Bolt"
-		type = LABEL
-		pos = 216,16
-		size = 80x20
-		anchor1 = none
-		anchor2 = none
-		text-color = #595959
-		background-color = #ffff91
-		is-visible = false
-		is-transparent = true
-		saved-params = ""
-		text = "Lightning Bolt"
-	elem "Lightning Bolt Spell"
-		type = BUTTON
-		pos = 216,40
-		size = 80x32
-		anchor1 = none
-		anchor2 = none
-		background-color = #ffff91
-		is-visible = false
-		saved-params = "is-checked"
-		text = ""
-		command = ".Bolt_Spell"
-		is-flat = true
-	elem "Enchant Spell"
-		type = BUTTON
-		pos = 48,104
-		size = 80x32
-		anchor1 = none
-		anchor2 = none
-		background-color = #ffff91
-		is-visible = false
-		saved-params = "is-checked"
-		text = ""
-		command = ".Enchant"
-		is-flat = true
-	elem "Enchant"
-		type = LABEL
-		pos = 48,80
-		size = 80x20
-		anchor1 = none
-		anchor2 = none
-		text-color = #595959
-		background-color = #ffff91
-		is-visible = false
-		is-transparent = true
-		saved-params = ""
-		text = "Enchant"
-	elem "Create Portal"
-		type = LABEL
-		pos = 48,140
-		size = 80x20
-		anchor1 = none
-		anchor2 = none
-		text-color = #595959
-		background-color = #ffff91
-		is-visible = false
-		is-transparent = true
-		saved-params = ""
-		text = "Create Portal"
-	elem "Create Portal Spell"
-		type = BUTTON
-		pos = 48,168
-		size = 80x32
-		anchor1 = none
-		anchor2 = none
-		background-color = #ffff91
-		is-visible = false
-		saved-params = "is-checked"
-		text = ""
-		command = ".Create_Realm_Spell"
-		is-flat = true
-	elem "Heal"
-		type = LABEL
-		pos = 48,16
-		size = 80x20
-		anchor1 = none
-		anchor2 = none
-		text-color = #595959
-		background-color = #ffff91
-		is-transparent = true
-		saved-params = ""
-		text = "Heal"
-	elem "Heal Spell"
-		type = BUTTON
-		pos = 48,40
-		size = 80x32
-		anchor1 = none
-		anchor2 = none
-		background-color = #ffff91
-		saved-params = "is-checked"
-		text = ""
-		command = ".Heal_Spell"
-		is-flat = true
-
-window "mainwindow"
-	elem "mainwindow"
-		type = MAIN
-		pos = 281,0
-		size = 640x440
-		anchor1 = none
-		anchor2 = none
-		background-color = #000000
-		is-default = true
-		saved-params = "pos;size;is-maximized"
-		statusbar = false
-		macro = "macro"
-		menu = "menu"
-		outer-size = 656x499
-		inner-size = 640x440
-	elem "mainvsplit"
-		type = CHILD
-		pos = 0,0
-		size = 640x419
-		anchor1 = 0,0
-		anchor2 = 100,100
-		background-color = none
-		saved-params = "splitter"
-		right = "rpane"
-		is-vert = true
-	elem "input"
-		type = INPUT
-		pos = 0,420
-		size = 140x20
-		anchor1 = 0,100
-		anchor2 = 100,100
-		font-family = "@Arial Unicode MS"
-		text-color = #ffffff
-		background-color = #000000
-		is-default = true
-		border = sunken
-		saved-params = ""
-	elem "Health"
-		type = LABEL
-		pos = 140,420
-		size = 100x20
-		anchor1 = 100,100
-		anchor2 = none
-		font-family = "@Arial Unicode MS"
-		text-color = #ffffff
-		background-color = #000000
-		is-visible = false
-		border = sunken
-		saved-params = ""
-		text = "Health"
-		align = left
-	elem "Energy"
-		type = LABEL
-		pos = 240,420
-		size = 100x20
-		anchor1 = 100,100
-		anchor2 = none
-		font-family = "@Arial Unicode MS"
-		text-color = #ffffff
-		background-color = #000000
-		is-visible = false
-		border = sunken
-		saved-params = ""
-		text = "Energy"
-		align = left
-	elem "Power"
-		type = LABEL
-		pos = 340,420
-		size = 150x20
-		anchor1 = 100,100
-		anchor2 = none
-		font-family = "@Arial Unicode MS"
-		text-color = #ffffff
-		background-color = #000000
-		is-visible = false
-		border = sunken
-		saved-params = ""
-		text = "Power"
-		align = left
-	elem "Gravity"
-		type = LABEL
-		pos = 490,420
-		size = 100x20
-		anchor1 = 100,100
-		anchor2 = none
-		font-family = "@Arial Unicode MS"
-		text-color = #ffffff
-		background-color = #000000
-		is-visible = false
-		border = sunken
-		saved-params = ""
-		text = "Gravity"
-		align = left
-
-window "mapwindow"
-	elem "mapwindow"
-		type = MAIN
-		pos = 281,0
-		size = 640x480
-		anchor1 = none
-		anchor2 = none
-		background-color = #000000
-		saved-params = "pos;size;is-maximized"
-		titlebar = false
-		statusbar = false
-		can-close = false
-		can-minimize = false
-		can-resize = false
-		is-pane = true
-		outer-size = 654x494
-	elem "map"
-		type = MAP
-		pos = 0,0
-		size = 640x480
-		anchor1 = 0,0
-		anchor2 = 100,100
-		text-color = #000000
-		is-default = true
-		saved-params = "icon-size"
-		on-show = ".winset\"mainwindow.mainvsplit.left=mapwindow\""
-		on-hide = ".winset\"mainwindow.mainvsplit.left=\""
-
-window "outputwindow"
-	elem "outputwindow"
-		type = MAIN
-		pos = 281,0
-		size = 640x480
-		anchor1 = none
-		anchor2 = none
-		background-color = #000000
-		saved-params = "pos;size;is-maximized"
-		titlebar = false
-		statusbar = false
-		can-close = false
-		can-minimize = false
-		can-resize = false
-		is-pane = true
-		outer-size = 654x494
-	elem "output"
-		type = OUTPUT
-		pos = 0,0
-		size = 640x480
-		anchor1 = 0,0
-		anchor2 = 100,100
-		text-color = #c0c0c0
-		background-color = #000000
-		is-default = true
-		saved-params = "max-lines"
-		link-color = #80ffff
-		visited-color = #008080
-		max-lines = 300
-
-window "rewardwindow"
-	elem "rewardwindow"
-		type = MAIN
-		pos = 281,0
-		size = 1085x600
-		anchor1 = none
-		anchor2 = none
-		background-color = none
-		is-visible = false
-		saved-params = "pos;size;is-minimized;is-maximized"
-		title = "Player Reward System"
-		statusbar = false
-		outer-size = 1101x639
-		inner-size = 1085x600
-	elem "browser_reward"
-		type = BROWSER
-		pos = 0,0
-		size = 696x600
-		anchor1 = none
-		anchor2 = none
-		background-color = #ffffff
-		saved-params = ""
-
-window "rpane"
-	elem "rpane"
-		type = MAIN
-		pos = 281,0
-		size = 640x480
-		anchor1 = none
-		anchor2 = none
-		background-color = #000000
-		saved-params = "pos;size;is-maximized"
-		titlebar = false
-		statusbar = false
-		can-close = false
-		can-minimize = false
-		can-resize = false
-		is-pane = true
-		outer-size = 654x494
-	elem "Magic"
-		type = BUTTON
-		pos = 320,0
-		size = 73x20
-		anchor1 = none
-		anchor2 = none
-		text-color = #c0c0c0
-		background-color = #000000
-		saved-params = "is-checked"
-		text = "Magic"
-		command = ".winset \"rpanewindow.left=windowMagic\""
-		group = "rpanemode"
-		button-type = pushbox
-	elem "rpanewindow"
-		type = CHILD
-		pos = 0,0
-		size = 640x480
-		anchor1 = 0,0
-		anchor2 = 100,100
-		background-color = none
-		saved-params = "splitter"
-		right = "outputwindow"
-		is-vert = false
-	elem "techbutton"
-		type = BUTTON
-		pos = 245,1
-		size = 73x20
-		anchor1 = none
-		anchor2 = none
-		text-color = #c0c0c0
-		background-color = #000000
-		saved-params = "is-checked"
-		text = "Technology"
-		command = ".winset \"rpanewindow.left=windowTech\""
-		group = "rpanemode"
-		button-type = pushbox
-	elem "textb"
-		type = BUTTON
-		pos = 1,1
-		size = 60x20
-		anchor1 = none
-		anchor2 = none
-		text-color = #c0c0c0
-		background-color = #000000
-		is-visible = false
-		saved-params = "is-checked"
-		text = "Text"
-		command = ".winset \"rpanewindow.left=;\""
-		is-checked = true
-		group = "rpanemode"
-		button-type = pushbox
-	elem "Button_Skills"
-		type = BUTTON
-		pos = 184,1
-		size = 60x20
-		anchor1 = none
-		anchor2 = none
-		text-color = #c0c0c0
-		background-color = #000000
-		saved-params = "is-checked"
-		text = "Learn Skills"
-		command = "Learn-Skills"
-		group = "rpanemode"
-		button-type = pushbox
-	elem "browseb"
-		type = BUTTON
-		pos = 62,1
-		size = 60x20
-		anchor1 = none
-		anchor2 = none
-		text-color = #c0c0c0
-		background-color = #000000
-		is-visible = false
-		saved-params = "is-checked"
-		text = "Browser"
-		command = ".winset \"rpanewindow.left=browserwindow\""
-		group = "rpanemode"
-		button-type = pushbox
-	elem "infob"
-		type = BUTTON
-		pos = 123,1
-		size = 60x20
-		anchor1 = none
-		anchor2 = none
-		text-color = #c0c0c0
-		background-color = #000000
-		is-visible = false
-		saved-params = "is-checked"
-		text = "Info"
-		command = ".winset \"rpanewindow.left=infowindow\""
-		group = "rpanemode"
-		button-type = pushbox
-
-window "browserwindow"
-	elem "browserwindow"
-		type = MAIN
-		pos = 281,0
-		size = 640x480
-		anchor1 = none
-		anchor2 = none
-		background-color = #000000
-		saved-params = "pos;size;is-maximized"
-		title = "Browser"
-		titlebar = false
-		statusbar = false
-		can-close = false
-		can-minimize = false
-		can-resize = false
-		is-pane = true
-	elem "browser"
-		type = BROWSER
-		pos = 0,0
-		size = 640x501
-		anchor1 = 0,0
-		anchor2 = 100,100
-		background-color = #ffffff
-		is-default = true
-		saved-params = ""
-		on-show = ".winset\"rpane.infob.is-visible=true?rpane.infob.pos=130,0;rpane.textb.is-visible=true;rpane.browseb.is-visible=true;rpane.browseb.is-checked=true;rpane.rpanewindow.pos=0,30;rpane.rpanewindow.size=0x0;rpane.rpanewindow.left=browserwindow\""
-		on-hide = ".winset\"rpane.browseb.is-visible=false;rpane.infob.is-visible=true?rpane.infob.is-checked=true rpane.infob.pos=65,0 rpane.rpanewindow.left=infowindow:rpane.rpanewindow.left=textwindow rpane.textb.is-visible=false rpane.rpanewindow.pos=0,0 rpane.rpanewindow.size=0x0\""
-
-window "infowindow"
-	elem "infowindow"
-		type = MAIN
-		pos = 281,0
-		size = 640x462
-		anchor1 = none
-		anchor2 = none
-		background-color = #000000
-		saved-params = "pos;size;is-maximized"
-		title = "Info"
-		titlebar = false
-		statusbar = false
-		can-close = false
-		can-minimize = false
-		can-resize = false
-		is-pane = true
-		can-scroll = vertical
-	elem "info"
-		type = INFO
-		pos = 0,0
-		size = 640x462
-		anchor1 = 0,0
-		anchor2 = 100,100
-		text-color = #c0c0c0
-		background-color = #000000
-		is-default = true
-		saved-params = ""
-		highlight-color = #00ffff
-		tab-text-color = #c0c0c0
-		tab-background-color = #000000
-		tab-font-family = "serif"
-		allow-html = false
-		on-show = ".winset\"rpane.infob.is-visible=true;rpane.browseb.is-visible=true?rpane.infob.pos=130,0:rpane.infob.pos=65,0 rpane.textb.is-visible=true rpane.infob.is-checked=true rpane.rpanewindow.pos=0,30 rpane.rpanewindow.size=0x0 rpane.rpanewindow.left=infowindow\""
-		on-hide = ".winset\"rpane.infob.is-visible=false;rpane.browseb.is-visible=true?rpane.browseb.is-checked=true rpane.rpanewindow.left=browserwindow:rpane.textb.is-visible=false rpane.rpanewindow.pos=0,0 rpane.rpanewindow.size=0x0 rpane.rpanewindow.left=\""
-
-window "win_playerDsc"
-	elem "win_playerDsc"
-		type = MAIN
-		pos = 281,0
-		size = 540x679
-		anchor1 = none
-		anchor2 = none
-		background-color = #000000
-		is-visible = false
-		saved-params = "pos;size;is-minimized;is-maximized"
-		statusbar = false
-	elem "brow_playerDsc"
-		type = BROWSER
-		pos = 16,16
-		size = 504x646
-		anchor1 = 0,0
-		anchor2 = 100,100
-		background-color = #000000
-		border = sunken
-		saved-params = ""
-
-window "win_playerEdit"
-	elem "win_playerEdit"
-		type = MAIN
-		pos = 281,0
-		size = 499x567
-		anchor1 = none
-		anchor2 = none
-		background-color = #000000
-		is-visible = false
-		saved-params = "pos;size;is-minimized;is-maximized"
-		statusbar = false
-		outer-size = 515x606
-		inner-size = 499x567
-	elem "inp_playerEdit"
-		type = INPUT
-		pos = 16,24
-		size = 464x527
-		anchor1 = 0,0
-		anchor2 = 100,100
-		border = sunken
-		saved-params = ""
-		multi-line = true
-		no-command = true
 
