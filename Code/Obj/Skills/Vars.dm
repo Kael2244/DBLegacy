@@ -1,0 +1,9 @@
+obj/var
+	Style
+	DamageType
+	DamageMultiplier
+	CritChance
+	CritMultiplier
+	Target
+	CD
+	SpecialEffect
